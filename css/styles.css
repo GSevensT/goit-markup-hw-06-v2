@@ -610,31 +610,6 @@ body {
 }
 
 /*UPDATE*/
-.footer-socials-text {
-  color: var(--white);
-  display: flex;
-  font-weight: 500;
-  margin-bottom: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-}
-.footer-socials-text-add {
-  color: var(--white);
-  font-weight: 500;
-  margin-bottom: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  margin-bottom: 16px;
-}
-
-.form {
-  display: flex;
-}
-
-.footer-socials-item {
-  width: 40px;
-  height: 40px;
-}
 
 .footer-container-add form {
   display: flex;
@@ -652,9 +627,11 @@ body {
   font-weight: 500;
   margin-bottom: 16px;
 }
+
 .formal {
   gap: 24px;
 }
+
 .footer-form-input {
   color: var(--white);
   width: 264px;
@@ -671,9 +648,8 @@ body {
   border: 1px solid var(--white, #fff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
-
 .footer-form-input::placeholder {
-  color: var(--white #fff);
+  color: var(--white, #fff);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -687,6 +663,10 @@ body {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
+  margin-left: 16px;
+  border: none;
+  color: var(--white);
+  font-weight: 500;
   margin-bottom: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
