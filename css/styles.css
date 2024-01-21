@@ -785,6 +785,9 @@ body {
 
 /*UPDATE MODAL*/
 .form-header {
+  padding-top: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
   color: var(--navyblue);
   text-align: center;
   line-height: 1.5;
